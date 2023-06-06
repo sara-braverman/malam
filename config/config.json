@@ -1,0 +1,9 @@
+{
+    "development": {
+      "username": "root",
+      "password": "newstart",
+      "database": "malam",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    }
+  }
