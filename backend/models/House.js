@@ -1,6 +1,7 @@
 const { Sequelize } = require('sequelize')
 const sequelize = require('../config/database');
 
+// Define the House model using Sequelize
 const House = sequelize.define('House', {
   id: {
     type: Sequelize.INTEGER,
@@ -20,8 +21,9 @@ const House = sequelize.define('House', {
     allowNull: false,
   },
   risk: {
-    type: Sequelize.FLOAT,
+    type: Sequelize.DOUBLE,
     allowNull: false,
+    defaultValue: 0
   },
 });
 
