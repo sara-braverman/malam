@@ -1,0 +1,60 @@
+.house-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .house-details div {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .house-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .house-details p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .house-details button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .house-details button:hover {
+    background-color: #0069d9;
+  }
+  
+  .house-details input[type="text"],
+  .house-details input[type="number"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .house-details input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .house-details input[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+  
